@@ -120,6 +120,62 @@ a:hover {
     }
 }
 
+/*Serviços*/
+#main-servicos{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: white;
+}
+.h1-servico{
+    text-align: center;
+    font-family: 'candara';
+}
+.accordion{
+    max-width: 800px;
+    text-align: center;
+}
+.accordion .contentBx{
+    position: relative;
+    margin: 10px 20px;
+}
+.accordion .contentBx .label{
+    position: relative;
+    padding: 10px;
+    background: #e8d8ff;
+    color: #1e0bd0;
+    cursor: pointer;
+    text-align: center;
+}
+.accordion .contentBx .label::before{
+    content: '+';
+    position: absolute;
+    top: 50%;
+    right: 20px;
+    transform: translateY(-50%);
+    font-size: 1.5em;
+}
+.accordion .contentBx.active .label::before{
+    content: '-';
+}
+.accordion .contentBx .content{
+    position: relative;
+    background: #fff;
+    height: 0;
+    overflow: hidden;
+    transition: 0.5s;
+    overflow-y: auto;
+}
+.accordion .contentBx.active .content{
+    height: 150px;
+    padding: 10px;
+}
+
+
+
 /*Footer*/
 .footer{
     font-weight: 400;
