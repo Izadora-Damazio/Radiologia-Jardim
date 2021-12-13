@@ -121,6 +121,15 @@ a:hover {
 }
 
 /*Sobre Nós*/
+#main-sn{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    min-height: 100vh;
+    background-color: white;
+}
 #section-sn{
     margin: 30px 150px 0px 150px;
 }
