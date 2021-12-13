@@ -177,6 +177,7 @@ a:hover {
 #button-down{
     background-color: #44A5FF;
     color: white;
+    border: none;
     font-size: 16px;
     box-shadow: none;
     text-decoration: none;
@@ -206,6 +207,7 @@ a:hover {
     text-decoration: none;
     box-shadow: none;
     cursor: pointer;
+    border: none;
     border-radius: 10px;
 }
 #button-p:hover{
