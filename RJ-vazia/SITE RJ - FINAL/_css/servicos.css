@@ -122,20 +122,25 @@ a:hover {
 
 /*Serviços*/
 #main-servicos{
-    margin: 0;
     padding: 0;
     justify-content: center;
     align-items: center;
     text-align: center;
     min-height: 100vh;
-    background-color: white;
+    background-color: white; 
 }
+/*.divisão{
+    width: 45%;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}*/
 .h1-servico{
+    margin-top: 30px;
     text-align: center;
-    font-family: 'candara';
+    color: #4d4d4d;
 }
 .accordion{
-    max-width: 800px;
+    max-width: 600px;
     text-align: center;
 }
 .accordion .contentBx{
@@ -143,10 +148,11 @@ a:hover {
     margin: 10px 20px;
 }
 .accordion .contentBx .label{
+    border: #4d4d4d solid 1px;
     position: relative;
     padding: 10px;
-    background: #e8d8ff;
-    color: #1e0bd0;
+    background: white;
+    color: #4d4d4d;
     cursor: pointer;
     text-align: center;
 }
@@ -163,7 +169,7 @@ a:hover {
 }
 .accordion .contentBx .content{
     position: relative;
-    background: #fff;
+    background: white;
     height: 0;
     overflow: hidden;
     transition: 0.5s;
