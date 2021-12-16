@@ -219,6 +219,8 @@ a:hover {
 
 /*Footer*/
 .footer{
+    bottom: 0px;
+    width: 100%;
     font-weight: 400;
     background-color: #323437;
     padding: 10px 0;

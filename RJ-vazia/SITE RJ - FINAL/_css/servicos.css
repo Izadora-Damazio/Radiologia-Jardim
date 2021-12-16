@@ -1,3 +1,9 @@
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
 /*menu*/
 ul {
     margin-top: 1rem;
@@ -126,18 +132,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    min-height: 100vh;
+    min-height: 73vh;
     background-color: white; 
 }
-/*.divisão{
-    width: 45%;
-    margin: 0 auto;
-    margin-bottom: 30px;
-}*/
 .h1-servico{
     margin-top: 30px;
     text-align: center;
     color: #4d4d4d;
+    font-size: 30px;
 }
 .accordion{
     max-width: 600px;
@@ -157,15 +159,11 @@ a:hover {
     text-align: center;
 }
 .accordion .contentBx .label::before{
-    content: '+';
     position: absolute;
     top: 50%;
     right: 20px;
     transform: translateY(-50%);
     font-size: 1.5em;
-}
-.accordion .contentBx.active .label::before{
-    content: '-';
 }
 .accordion .contentBx .content{
     position: relative;
@@ -184,6 +182,8 @@ a:hover {
 
 /*Footer*/
 .footer{
+    bottom: 0px;
+    width: 100%;
     font-weight: 400;
     background-color: #323437;
     padding: 10px 0;
