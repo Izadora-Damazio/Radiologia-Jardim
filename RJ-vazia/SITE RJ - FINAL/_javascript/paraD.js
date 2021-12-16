@@ -14,6 +14,9 @@ function toggleMenu(event){
     }     
 }
 
+btnMobile.addEventListener('click', toggleMenu)
+btnMobile.addEventListener('touchstart', toggleMenu)
+
 /*Downloads*/
 const accordion = document.getElementsByClassName
 ('contentBx');
