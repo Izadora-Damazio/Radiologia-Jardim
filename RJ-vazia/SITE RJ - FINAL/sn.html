@@ -4,9 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=1"/>
     <link rel="stylesheet" href="./_css/sn.css">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css"/>
     <title>Sobre Nós</title>
+    <style>
+        .swiper {
+          width: 100%;
+          padding-top: 0px;
+          padding-bottom: 50px;
+        }
+  
+        .swiper-slide {
+          background-position: center;
+          background-size: cover;
+          width: 300px;
+          height: 200px;
+        }
+  
+        .swiper-slide img {
+          display: block;
+          width: 100%;
+        }
+    </style>
 </head>
 <body>
 
@@ -59,33 +80,54 @@
 
             <p class="p-sn">Qualidade do serviço, responsabilidade social, compromisso com o cliente e ética acima de tudo.</p>
         </section>
-
-        <!--Carousel-->
-        <div class="slide hi-slide">
-            <div class="hi-preve"></div>
-            <div class="hi-next"></div>
-            <ul>
-                <li>
-                    <img src="./_imagens/0019.jpg" alt="">
-                </li>
-                <li>
-                    <img src="./_imagens/0025.jpg" alt="">
-                </li>
-                <li>
-                    <img src="./_imagens/0031.jpg" alt="">
-                </li>
-                <li>
-                    <img src="./_imagens/0036.jpg" alt="">
-                </li>
-                <li>
-                    <img src="./_imagens/0044.jpg" alt="">
-                </li>
-                <li>
-                    <img src="./_imagens/0066.jpg" alt="">
-                </li>
-            </ul>
-        </div>
     </main>
+
+    <!--Carousel-->
+    <div class="swiper mySwiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <img src="./_imagens/0019.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./_imagens/0025.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./_imagens/0036.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./_imagens/0044.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./_imagens/0048.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./_imagens/0063.jpg" />
+          </div>
+          <div class="swiper-slide">
+            <img src="./_imagens/0066.jpg" />
+          </div>
+        </div>
+        <div class="swiper-pagination"></div>
+      </div>
+      <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+      <script>
+      var swiper = new Swiper(".mySwiper", {
+        effect: "coverflow",
+        grabCursor: true,
+        centeredSlides: true,
+        slidesPerView: "auto",
+        coverflowEffect: {
+          rotate: 50,
+          stretch: 0,
+          depth: 100,
+          modifier: 1,
+          slideShadows: true,
+        },
+        pagination: {
+          el: ".swiper-pagination",
+        },
+      });
+    </script>
 
     <!--Footer-->
     <section class="footer">
@@ -115,8 +157,8 @@
     </section>
 
     <script src="./_javascript/sn.js"></script>
-    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
     
+
     
 </body>
 </html>

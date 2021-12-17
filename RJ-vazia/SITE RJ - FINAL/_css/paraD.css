@@ -185,7 +185,8 @@ a:hover {
     padding-bottom: 10px;
     width: 100%;
     min-width: 50px;
-    max-width: 450px;
+    max-width: 350px;
+    border-radius: 3px;
 }
 #button-down:hover{
     opacity: .75;
@@ -197,7 +198,7 @@ a:hover {
 }
 #p-down{
     color: #3c4858;
-    font-size: 18px;
+    font-size: 15px;
     box-sizing: border-box;
     font-weight: bold;
 }
@@ -211,7 +212,7 @@ a:hover {
     box-shadow: none;
     cursor: pointer;
     border: none;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 #button-p:hover{
     opacity: .75;
