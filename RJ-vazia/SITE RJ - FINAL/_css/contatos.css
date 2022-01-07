@@ -121,6 +121,21 @@ a:hover {
 }
 
 /*Formulario*/
+.fWhats{
+    background: #2bc470;
+    border-radius: 6px;
+    padding: .400rem .80rem;
+    cursor: pointer;
+    color: #ffffff;
+    border: none;
+    display: inline-flex;
+}
+.fWhats:hover{
+    opacity: .75;
+}
+.fa-whatsapp{
+    text-align: center;
+}
 *{
     margin: 0;
     padding: 0;

@@ -127,6 +127,30 @@ a:hover {
     }
 }
 
+/*Botão Whats*/
+.aWhats{
+    position: fixed;
+    width: 60px;
+    height: 60px;
+    bottom: 40px;
+    right: 40px;
+    background-color: #25d366;
+    color: #fff;
+    border-radius: 50px;
+    text-align: center;
+    font-size: 30px;
+    box-shadow: 1px 1px 2px #888;
+    z-index: 1000;
+}
+.aWhats:hover{
+    background-color: #25d366;
+    color: #fff;
+    opacity: .75;
+}
+.fa-whatsapp{
+    margin-top: 16px;
+}
+
 /*Caixa de Texto*/
 .div-caixa{
     border: 2px solid black;
@@ -169,11 +193,18 @@ a:hover {
 }
 
 /*Maps*/
+.aTel{
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+.aTel:hover{
+    opacity: .75;
+}
 #h3-maps{
     color: white;
     text-align: center;
-    font-family: 'candara';
-    font-size: 32px;
+    font-family:'Poppins', sans-serif;
+    font-size: 27px;
     margin: 20px;
 }
 #section-maps{
@@ -182,14 +213,14 @@ a:hover {
 .h6-maps{
     text-align: center;
     color: white;
-    font-family: 'candara';
-    font-size: 20px;
+    font-family:'Poppins', sans-serif;
+    font-size: 17px;
 }
 #p-maps{
     text-align: center;
     color: white;
-    font-size: 20px;
-    font-family: 'candara';
+    font-size: 18px;
+    font-family:'Poppins', sans-serif;
 }
 
 /*Footer*/
