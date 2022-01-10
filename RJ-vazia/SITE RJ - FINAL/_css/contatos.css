@@ -121,6 +121,9 @@ a:hover {
 }
 
 /*Formulario*/
+#sectionC{
+    min-height: 100vh;
+}
 .fWhats{
     background: #2bc470;
     border-radius: 6px;
