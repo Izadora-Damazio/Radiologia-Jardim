@@ -161,6 +161,7 @@ a:hover {
 }
 #sectionS{
     min-height: 100vh;
+    background: linear-gradient(white, #d7ebf2) no-repeat;
 }
 .h1-servico{
     margin-top: 30px;

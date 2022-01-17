@@ -160,12 +160,14 @@ a:hover {
     justify-content: center;
     align-items: center;
     text-align: center;
-    background-color: white;
+    /*background: linear-gradient(white, #d7ebf2) no-repeat;*/
+    background-color: #d7ebf2;
     margin-bottom: 0%;
 }
 #section-sn{
     margin: 30px 100px 0px 100px;
     min-height: 100vh;
+    /*background-color: #e4f2f7;*/
 }
 #h1-sn{
     font-size: 40px;

@@ -1,3 +1,10 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+
 /*menu*/
 ul {
     margin-top: 1rem;
@@ -124,112 +131,108 @@ a:hover {
 #sectionC{
     min-height: 100vh;
 }
-.fWhats{
-    background: #2bc470;
+.h2email{
+    font-size: 20px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.h3form{
+    text-align: left;
+    font-size: 18px;
+    font-family: 'Poppins', sans-serif;
+}
+.pform{
+    text-align: left;
+    font-size: 17px;
+    font-family: 'Poppins', sans-serif;
+    color: rgb(71, 70, 70);
+}
+.aTel{
+    font-size: 17px;
+    color: rgb(71, 70, 70);
+    font-family: 'Poppins', sans-serif;
+}
+.aTel:hover{
+    opacity: .75;
+    color: black;
+    text-decoration: none;
+}
+.botão{
+    background: #1c8308;
     border-radius: 6px;
-    padding: .400rem .80rem;
+    padding: 8px 20px;
     cursor: pointer;
     color: #ffffff;
     border: none;
-    display: inline-flex;
+    transition: 0.2s;
 }
-.fWhats:hover{
-    opacity: .75;
+.botão:hover{
+    opacity: 0.75;
 }
-.fa-whatsapp{
-    text-align: center;
-}
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-    font-size: 14px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-.contato{
-    display: flex;
-    /*justify-content: center;
-    align-items: center;*/
-    width: 100%;
-    background-color: #fff;
+.h5estacio{
+    color: rgb(71, 70, 70);
+    font-family: 'Poppins', sans-serif;
+    font-size: 15px;
 }
 .form{
-    display: block;
-    padding: 20px;
-    border-radius: 3px;
-}
-.form .row{
-    display: block;
-    padding: 10px;
-}
-.form .flx{
     display: flex;
-    justify-content: center;
     align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 100%;
+    max-width: 32rem;
+    font-size: 1.125rem;
+    font-family: 'Poppins', sans-serif;
 }
-.form .flx .input{
-    flex: 1;
-}
-.form .flx .input:first-child{
-    margin-right: 20px;
-}
-.form .input{
+.form label,
+.form input,
+.form textarea,
+.form button{
     display: block;
     width: 100%;
-    padding: 8px;
-    border: 1px solid #7A7A7A;
-    border-radius: 5px;
-    font-size: 1.2em;
 }
-.form .textarea{
-    display: block;
-    width: 100%;
-    height: 100px;
-    padding: 8px;
-    border: 1px solid #7A7A7A;
-    border-radius: 5px;
-    font-size: 1.2em;
-    resize: none;
+.form label{
+    color: black;
+    line-height: 1;
+    margin-bottom: 0.5rem;
 }
-.form .btn{
+.form input,
+.form textarea{
+    font: inherit;
+    padding: 0.4rem;
+    margin-bottom: 1rem;
+    border: 1px solid rgb(143, 142, 142);
+    border-radius: 5px;
+    transition: border-color,
+    box-shadow 0.2s;
+}
+.form textarea{
+    min-height: 10rem;
+    resize: vertical;
+}
+.form input:hover,
+.form input:focus,
+.form textarea:hover,
+.form textarea:focus{
+    outline: none;
+    border-color: rgb(141, 192, 214);
+    box-shadow: 0 0 0 1px #4dc8ff;
+}
+.form button{
     display: block;
-    padding: 10px 30px;
-    background-color: royalblue;
-    color: #fff;
-    font-size: 1em;
-    font-weight: 400;
+    padding: 0.5rem;
+    background: #333333;
+    color: white;
+    text-transform: uppercase;
     border: none;
     border-radius: 5px;
     cursor: pointer;
-    transition-duration: 0.3s;
+    transition: 0.2s;
 }
-.form .btn:hover{
-    translate: 0.71;
-}
-@media (max-width: 540px){
-    .form {
-        display: block;
-        width: 100%;
-        margin: 0px 20px;
-    }
-}
-@media (max-width: 450px){
-    .form .flx{
-        display: block;
-    }
-    .form .flx .input:first-child{
-        margin-bottom: 20px;
-    }
-    .form .input,
-    .form .textarea,
-    .form .btn{
-        font-size: 1rem;
-    }
-}
-
-/*Maps Servico*/
-.maps-servico{
-    margin-top: 100px;
+.form button:hover,
+.form button:focus{
+    outline: none;
+    opacity: 0.75;
 }
 
 /*Footer*/

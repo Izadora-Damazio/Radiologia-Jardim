@@ -199,6 +199,8 @@ a:hover {
 }
 .aTel:hover{
     opacity: .75;
+    color: white;
+    text-decoration: none;
 }
 #h3-maps{
     color: white;
