@@ -34,7 +34,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     background: #F8F8FF;
-    box-shadow: 0px 1px 3px #dcdcdc;
+    box-shadow: 0px 1px 13px #dcdcdc;
 }
 
 #menu{
@@ -161,7 +161,7 @@ a:hover {
 }
 #sectionS{
     min-height: 100vh;
-    background: linear-gradient(white, #d7ebf2) no-repeat;
+    background: linear-gradient(white, white, #d7ebf2, #7dafc2) no-repeat;
 }
 .h1-servico{
     margin-top: 30px;
@@ -181,7 +181,7 @@ a:hover {
     border: #4d4d4d solid 1px;
     position: relative;
     padding: 10px;
-    background: white;
+    background: transparent;
     color: #4d4d4d;
     cursor: pointer;
     text-align: center;
@@ -195,17 +195,28 @@ a:hover {
 }
 .accordion .contentBx .content{
     position: relative;
-    background: white;
+    background: transparent;
     height: 0;
-    overflow: hidden;
     transition: 0.5s;
-    overflow-y: auto;
+    overflow: auto;
 }
 .accordion .contentBx.active .content{
-    height: 150px;
+    height: 200px;
     padding: 10px;
 }
-
+.pformulario{
+    text-align: left;
+    font-family: sans-serif;
+}
+::-webkit-scrollbar-thumb{
+    background-color: #1d1d1d;
+    width: 5px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+::-webkit-scrollbar-thumb{
+    background-color: aqua;
+}
 
 
 /*Footer*/
