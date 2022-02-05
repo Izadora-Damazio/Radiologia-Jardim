@@ -1,10 +1,9 @@
-html, body{
+*{
     margin: 0;
     padding: 0;
-    height: 100%;
-    width: 100%;
+    box-sizing: border-box;
+    font-family: 'Poppins';
 }
-
 /*menu*/
 ul {
     margin-top: 1rem;
@@ -48,7 +47,7 @@ a:hover {
     display: block;
     padding: .5rem;
     font-size: 13px;
-    color: #555;
+    color: rgb(19, 18, 18);
     text-decoration: none;
 }
 
@@ -126,7 +125,6 @@ a:hover {
         top: -7px;
     }
 }
-
 /*Botão Whats*/
 .aWhats{
     position: fixed;
@@ -160,20 +158,25 @@ a:hover {
     text-align: center;
 }
 #sectionS{
+    justify-content: center;
+    align-items: center;
+    text-align: center;
     min-height: 100vh;
-    background: linear-gradient(white, white, #d7ebf2, #7dafc2) no-repeat;
+    background-color: white
 }
 .h1-servico{
     margin-top: 30px;
     text-align: center;
-    color: #4d4d4d;
+    color: #2575fc;
     font-size: 30px;
+    font-family: 'Poppins';
 }
 #h1-servicos{
     margin-top: 23px;
     text-align: center;
-    color: #4d4d4d;
+    color: #2575fc;
     font-size: 30px;
+    font-family: 'Poppins';
 }
 .accordion{
     max-width: 600px;
@@ -184,13 +187,14 @@ a:hover {
     margin: 10px 20px;
 }
 .accordion .contentBx .label{
-    border: #4d4d4d solid 1px;
+    border: #2575fc solid 1px;
     position: relative;
     padding: 10px;
     background: transparent;
-    color: #4d4d4d;
+    color: #2575fc;
     cursor: pointer;
     text-align: center;
+    border-radius: 8px;
 }
 .accordion .contentBx .label::before{
     position: absolute;
@@ -212,7 +216,9 @@ a:hover {
 }
 .pformulario{
     text-align: left;
-    font-family: sans-serif;
+    font-family:'Poppins';
+    font-size: 15px;
+    color: #1464f0;
 }
 ::-webkit-scrollbar-thumb{
     background-color: #1d1d1d;
@@ -260,5 +266,12 @@ a:hover {
     text-align: center;
     font-size: 10px;
     color: #646464;
+    margin-bottom: 0%;
+}
+#sac{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #dad5d5;
     margin-bottom: 0%;
 }

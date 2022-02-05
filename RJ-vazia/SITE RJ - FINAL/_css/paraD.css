@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 /*menu*/
 ul {
@@ -12,7 +12,7 @@ ul {
 
 .a-manu{
     text-decoration: none;
-    font-family: sans-serif ;
+    font-family: 'Poppins' ;
 }
 
 a:hover {
@@ -47,7 +47,7 @@ a:hover {
     display: block;
     padding: .5rem;
     font-size: 13px;
-    color: #555;
+    color: rgb(19, 18, 18);
     text-decoration: none;
 }
 
@@ -151,10 +151,6 @@ a:hover {
 }
 
 /*Downloads*/
-main{
-    min-height: 100vh;
-    background-color: black;
-}
 #section-down{
     justify-content: center;
     align-items: center;
@@ -162,21 +158,21 @@ main{
     min-height: 100vh;
     background-color: white;
 }
-.h1-servico{
-    text-align: center;
-    font-family: 'candara';
-}
 .accordion{
-    /*max-width: 800px;*/
     width: 100%;
     max-width: 1000px;
     min-width: 400px;
     text-align: center;
+    font-family: 'Poppins';
 }
 .accordion .contentBx{
     position: relative;
     margin: 10px 20px;
     text-align: center;
+}
+.label{
+    font-size: 17px;
+    font-family: 'Poppins';
 }
 .accordion .contentBx .label{
     position: relative;
@@ -186,6 +182,8 @@ main{
     cursor: pointer;
     text-align: center;
     border: #2575fc solid 1px;
+    border-radius: 8px;
+    font-family: 'Poppins';
 }
 .accordion .contentBx .label::before{
     position: absolute;
@@ -226,18 +224,35 @@ main{
 #h2-down{
     color: #3089DD;
     font-weight: 500;
-    font-size: 41px;
+    font-size: 40px;
 }
 #p-down{
     color: #3c4858;
-    font-size: 15px;
+    font-size: 20px;
     box-sizing: border-box;
     font-weight: bold;
+    text-align: center;
+}
+.pD{
+    color: #323437de;
+    text-align: left;
+    font-family: 'Poppins';
+}
+.aD{
+    text-decoration: none;
+    font-family: 'Poppins';
+    font-size: 20px;
+}
+.aD:hover{
+    color: #070577;
+    text-decoration: none;
+    text-decoration-color: none;
+    background-color: transparent;
 }
 #button-p{
     width: 100%;
-    max-width: 130px;
-    min-width: 50px;
+    max-width: 150px;
+    min-width: 500px;
     background-color: #0AB17B;
     color: white;
     text-decoration: none;
@@ -249,37 +264,6 @@ main{
 #button-p:hover{
     opacity: .75;
 }
-
-/*Cards*/
-.carrosel{
-    margin: 0px;
-    width: 300px;
-    height: 400px;
-    text-align: center;
-    overflow: hidden;
-    margin-left: 80px;
-}
-.carrosel ul{
-    display: flex;
-    list-style: none;
-    text-align: center;
-    width: 900px;
-    height: 400px;
-}
-.carrosel li{
-    position: relative;
-    animation: slide 20s infinite ease-out;
-}
-@keyframes slide{
-    0%{left: 0px;}
-    20%{left: 0px;}
-    30%{left: -300px;}
-    50%{left: -300px;}
-    60%{left: -600px;}
-    80%{left: -600px;}
-    100%{left: 0px;}
-}
-
 
 /*Footer*/
 .footer{
@@ -316,5 +300,12 @@ main{
     text-align: center;
     font-size: 10px;
     color: #646464;
+    margin-bottom: 0%;
+}
+#sac{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #dad5d5;
     margin-bottom: 0%;
 }

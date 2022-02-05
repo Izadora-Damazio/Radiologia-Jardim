@@ -1,10 +1,9 @@
-body{
-    padding: 0;
+*{
     margin: 0;
-    width: 100%;
-    height: 100%;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins';
 }
-
 /*menu*/
 ul {
     margin-top: 1rem;
@@ -34,7 +33,7 @@ a:hover {
     align-items: center;
     justify-content: space-between;
     background: #F8F8FF;
-    box-shadow: 0px 1px 3px #dcdcdc;
+    box-shadow: 0px 1px 13px #dcdcdc;
 }
 
 #menu{
@@ -48,7 +47,7 @@ a:hover {
     display: block;
     padding: .5rem;
     font-size: 13px;
-    color: #555;
+    color: rgb(19, 18, 18);
     text-decoration: none;
 }
 
@@ -75,7 +74,7 @@ a:hover {
        width: 100%;
        top: 70px;
        right: -13px;
-       background: #ffff;
+       background: #e7e7e7;
        transition: 1s;
        z-index: 1000;
        height: 0px;
@@ -167,7 +166,7 @@ a:hover {
     font-weight: 700;
     line-height: 1.618;
     font-size: 27px;
-    font-family: 'candara';
+    font-family: 'Poppins';
 
 }
 .p-caixa{
@@ -177,7 +176,7 @@ a:hover {
     font-weight: 300;
     line-height: 1.618;
     font-size: 15px;
-    font-family: 'candara';
+    font-family: 'Poppins';
 }
 .button-caixa{
     background: #333333;
@@ -198,17 +197,18 @@ a:hover {
 /*Maps*/
 .aTel{
     color: white;
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins';
 }
 .aTel:hover{
     opacity: .75;
-    color: white;
+    color: rgba(0, 0, 255, 0.664);
     text-decoration: none;
+    background-color: transparent;
 }
 #h3-maps{
     color: white;
     text-align: center;
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins';
     font-size: 27px;
     margin: 20px;
 }
@@ -218,14 +218,14 @@ a:hover {
 .h6-maps{
     text-align: center;
     color: white;
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins';
     font-size: 17px;
 }
 #p-maps{
     text-align: center;
     color: white;
     font-size: 18px;
-    font-family:'Poppins', sans-serif;
+    font-family:'Poppins';
 }
 
 /*Footer*/
@@ -263,6 +263,13 @@ a:hover {
     text-align: center;
     font-size: 10px;
     color: #646464;
+    margin-bottom: 0%;
+}
+#sac{
+    margin-top: 10px;
+    text-align: center;
+    font-size: 15px;
+    color: #dad5d5;
     margin-bottom: 0%;
 }
 
